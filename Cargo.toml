@@ -1,0 +1,11 @@
+[package]
+name = "gvim-remote"
+version = "0.1.0"
+authors = ["BennyYip <yebenmy@gmail.com>"]
+
+[package.metadata.winres]
+OriginalFilename = "gvim-remote.EXE"
+LegalCopyright = "Copyright © 2017"
+
+[build-dependencies]
+winres = { git = "https://github.com/bennyyip/winres" }

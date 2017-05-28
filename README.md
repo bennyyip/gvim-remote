@@ -1,6 +1,7 @@
 # GVim Remote
-Open file in existing gvim instance, same as `alias vr='gvim --remote-tab-silent'` in \*unix shell.  
-It is for Windows GVim, with a vim icon.
+
+Open file in existing gvim instance, same as `alias vr='gvim --remote-tab-silent'` in \*nix shell.  
+It is for Windows GVim, with a Vim icon.
 
 # Build 
 

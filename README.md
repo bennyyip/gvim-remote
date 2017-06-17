@@ -9,4 +9,3 @@ It is for Windows GVim, with a Vim icon.
 cargo build --release
 ```
 
-Note that `winres` cannot detect Windows SDK correctly, I make my own [fork](https://github.com/bennyyip/winres) and it only works for SDK 10586.  

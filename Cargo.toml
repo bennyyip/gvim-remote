@@ -8,4 +8,4 @@ OriginalFilename = "gvim-remote.EXE"
 LegalCopyright = "Copyright © 2017"
 
 [build-dependencies]
-winres = { git = "https://github.com/bennyyip/winres" }
+winres = "*"

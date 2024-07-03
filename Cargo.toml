@@ -1,11 +1,19 @@
 [package]
 name = "gvim-remote"
 version = "0.1.1"
+edition = "2021"
 authors = ["BennyYip <yebenmy@gmail.com>"]
 
 [package.metadata.winres]
 OriginalFilename = "gvim-remote.EXE"
-LegalCopyright = "Copyright © 2017"
+LegalCopyright = "Copyright © 2024"
 
 [build-dependencies]
 winres = "*"
+
+[profile.release]
+opt-level = "z"     # Optimize for size.
+lto = true          # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
+panic = "abort"     # Abort on panic
+strip = true        # Automatically strip symbols from the binary.
